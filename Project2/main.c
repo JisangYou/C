@@ -28,5 +28,15 @@ int main(void)
 	// &는 변수의 주소를 구하는 연산자
 	printf("입력된 값 : %d\n", a);
 
+	int age;
+	double height;
+
+	printf("나이와 키를 입력하세요 : ");
+	scanf("%d%lf", &age, &height);
+	printf("나이는 %d살, 키는 %.1lfcm입니다\n", age, height);
+
+	//char name[20] -> 배열크기가 20바이트, 최대 19자의 문자열을 입력할 수 있습니다.
+	// null 문자를 포함해 1 바이트의 여유를 두어야 합니다.
+
 	return 0;
 }
