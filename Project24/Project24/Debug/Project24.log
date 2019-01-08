@@ -1,0 +1,7 @@
+﻿  main.c
+c:\users\user\source\repos\project24\project24\main.c(32): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
+c:\users\user\source\repos\project24\project24\main.c(32): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char **'입니다.
+c:\users\user\source\repos\project24\project24\main.c(33): warning C4047: '함수': 'char *'의 간접 참조 수준이 'char **'과(와) 다릅니다.
+c:\users\user\source\repos\project24\project24\main.c(33): warning C4024: 'swap_ptr': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\users\user\source\repos\project24\project24\main.c(41): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
+  Project24.vcxproj -> C:\Users\USER\source\repos\Project24\Debug\Project24.exe
