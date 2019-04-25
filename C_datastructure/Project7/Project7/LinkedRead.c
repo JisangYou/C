@@ -10,9 +10,9 @@ typedef struct _node
 
 int main(void)
 {
-	Node * head = NULL;    // NULL 포인터 초기화
-	Node * tail = NULL;
-	Node * cur = NULL;
+	Node * head = NULL;    // NULL 포인터 초기화, 리스트의 머리를 가리키는 포인터 변수
+	Node * tail = NULL;	   // 리스트의 꼬리를 가리키는 포인터 변수
+	Node * cur = NULL;	   // 저장된 데이터의 조회에 사용되는 포인터 변수
 
 	Node * newNode = NULL;
 	int readData;
@@ -26,20 +26,20 @@ int main(void)
 			break;
 
 		/*** 노드의 추가과정 ***/
-		newNode = (Node*)malloc(sizeof(Node));
+		newNode = (Node*)malloc(sizeof(Node)); // 노드(바구니)의 생성
 		/*
 			포인터가 아닌 경우는 . 연산자 사용~~
 			화살표 연산자 ( -> )로 [구조체 멤버]에 접근하여 값 할당
 		*/
-		newNode->data = readData;
-		newNode->next = NULL;
+		newNode->data = readData;	// 노드의 데이터 저장
+		newNode->next = NULL;	//노드의 next를 NULL로 초기화
 
-		if (head == NULL)
-			head = newNode;
-		else
+		if (head == NULL)	// 첫 번쨰 노드라면,
+			head = newNode;	// 첫 번째 노드를 head가 가리키게 함
+		else // 두 번째 이후 노드라면,
 			tail->next = newNode;
 
-		tail = newNode;
+		tail = newNode; // 노드의 끝을 tail이 가리키게 함
 	}
 	printf("\n");
 
@@ -51,10 +51,10 @@ int main(void)
 	}
 	else
 	{
-		cur = head;
+		cur = head;					// cur이 리스트의 첫 번째 노드를 가리킨다.
 		printf("%d  ", cur->data);   // 첫 번째 데이터 출력
 
-		while (cur->next != NULL)    // 두 번째 이후의 데이터 출력
+		while (cur->next != NULL)    // 연결된 노드가 존재한다면,
 		{
 			cur = cur->next;
 			printf("%d  ", cur->data);
@@ -84,6 +84,10 @@ int main(void)
 			free(delNode);    // 두 번째 이후의 노드 삭제
 		}
 	}
-
+	system("pause");
 	return 0;
 }
+
+
+// pa->x, (*pa).x
+// 구조체 포인터에서 포인터가 구조체의 멤버를 가리킬때 사용
