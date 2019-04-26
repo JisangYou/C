@@ -1,0 +1,3 @@
+﻿  DLinkedListSortMain.c
+c:\users\yoo\desktop\data_structure_src\ch04\dlinkedlistsort\dlinkedlistsortmain.c(62): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Project8.vcxproj -> C:\Users\YOO\workspace_new\C_Lang\C_Language\C_datastructure\Project8\Debug\Project8.exe
