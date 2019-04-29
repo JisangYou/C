@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\yoo\workspace_new\c_lang\c_language\c_grammar\project32\project32\main.c(21): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'score'입니다.
+c:\users\yoo\workspace_new\c_lang\c_language\c_grammar\project32\project32\main.c(23): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Project32.vcxproj -> C:\Users\YOO\workspace_new\C_Lang\C_Language\C_grammar\Project32\Debug\Project32.exe
