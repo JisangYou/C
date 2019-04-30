@@ -1,0 +1,3 @@
+﻿  main.c
+c:\users\yoo\workspace_new\c_lang\c_language\c_grammar\project33\project33\main.c(23): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Project33.vcxproj -> C:\Users\YOO\workspace_new\C_Lang\C_Language\C_grammar\Project33\Debug\Project33.exe
