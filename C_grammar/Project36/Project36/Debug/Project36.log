@@ -1,0 +1,6 @@
+﻿  main.c
+c:\users\yoo\workspace_new\c_lang\c_language\c_grammar\project36\project36\main.c(7): warning C4047: '=': 'FILE *'의 간접 참조 수준이 'errno_t'과(와) 다릅니다.
+c:\users\yoo\workspace_new\c_lang\c_language\c_grammar\project36\project36\main.c(13): warning C4013: 'fclose_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\yoo\workspace_new\c_lang\c_language\c_grammar\project36\project36\main.c(14): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+main.obj : error LNK2019: _fclose_s 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\Users\YOO\workspace_new\C_Lang\C_Language\C_grammar\Project36\Debug\Project36.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
